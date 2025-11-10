@@ -9,6 +9,4 @@ Multiple regression analysis predicting team wins from batting statistics, with 
 
 **Tools:** SAS (PROC REG, PROC CORR, PROC SGPLOT, PROC MEANS)
 
-**Key Finding:** Two-variable model (hits + batting average) provided best fit with Adj R² = 0.55 and RMSE = 6.84 games. Adding complexity did not improve predictive performance.
-
-[View full report](PDF link)
+**Findings:** Two-variable model (hits + batting average) provided best fit with Adj R² = 0.55 and RMSE = 6.84 games. Adding complexity did not improve predictive performance.
