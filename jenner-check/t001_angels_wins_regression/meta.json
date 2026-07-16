@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_angels_wins_regression",
+  "source_file": "program.sas",
+  "source_blob_sha": "d93c74b6527d12af7f5458eacd78097a3a228354",
+  "source_commit": "ff66304dd1fa39474b95920f1ef7fc6214934009",
+  "notes": "Adapted program.sas: PROC CORR on the 22 batting/fielding variables, the Wins/Hits/BatAvg/Doubles/Runs derived dataset, PROC MEANS five-number summary, one PROC SGPLOT histogram + one scatter/reg plot, and 3 of the author's 12 PROC REG model comparisons (Hits+BatAvg -- the author's reported best 2-variable model -- plus Hits+Runs and BatAvg+Runs). DATALINES inline with the real 25 seasons of Angels batting data (2000-2025, 2020 excluded) read from AngelsBatting_2000-2025.xlsx, replacing PROC IMPORT of that file. The ODS PDF/graphics-file redirection to a local Windows desktop path was dropped. Scope trimmed from the full 12-REG/6-SGPLOT script after an initial submission of the full pipeline exceeded the hosted API's 30s anonymous-tier execution budget (HTTP 408); this subset reproduces the author's headline finding (Adj R-Sq ~0.53-0.55 for Hits+BatAvg) well within budget."
+}

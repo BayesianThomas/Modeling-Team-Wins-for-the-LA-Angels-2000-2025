@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-16T06:50:28Z",
+  "_captured_run_id": "r_e8c452b62e2b4009bbe19f012c4f5936",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.ANGELSBATTING_2000_2025 (25 rows, 27 columns).",
+    "NOTE: PROC CORR data=WORK.ANGELSBATTING_2000_2025",
+    "NOTE: Wrote work.angels4vars (25 rows, 32 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC SGPLOT data=work.angels4vars"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
